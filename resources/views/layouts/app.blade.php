@@ -7,8 +7,8 @@
         <title>Test</title>
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
-    <body class="bg-grey-300">
-        <nav class="p-6 bg-white flex justify-between">
+    <body class="bg-red-400">
+        <nav class="p-6 bg-white flex justify-between mb-6">
             <ul class="flex items-center">
                 <li>
                      <a href="" class="p-3">loula</a>
@@ -30,6 +30,9 @@
                 <li> 
                     <a href="" class="p-3">theltha</a>
                 </li>
+                <li>
+                    <a href="" class="p-3">Rab3a</a>
+               </li>
             </ul>
         </nav>
         @yield('content')
